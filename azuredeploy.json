@@ -284,7 +284,7 @@
           "region": {
             "value": "[parameters('region')]"
           },
-          "scriptsUri": "https://raw.githubusercontent.com/cmeralto/public_cloudera_on_azure/master/ClouderaAD",
+          "scriptsUri": "https://raw.githubusercontent.com/cmeralto/public_cloudera_on_azure/master",
           "storageAccount": {
             "value": "[variables('storageAccount')]"
           },
