@@ -4,7 +4,7 @@
   "parameters": {
     "adminUserName": {
       "type": "string",
-      "defaultValue": "testuser",
+      "defaultValue": "epmadmin",
       "metadata": {
         "description": "Admin user name for the Virtual Machines"
       }
@@ -78,21 +78,21 @@
     },
     "storageAccountType": {
       "type": "string",
-      "defaultValue": "Premium_LRS",
+      "defaultValue": "Standard_LRS",
       "metadata": {
         "description": "The type of the Storage Account to be created (Default to Standard_LRS)"
       }
     },
     "addressPrefix": {
       "type": "string",
-      "defaultValue": "10.0.0.0/24",
+      "defaultValue": "10.0.0.0/16",
       "metadata": {
         "description": "Address prefix for the VNet"
       }
     },
     "subnetPrefix": {
       "type": "string",
-      "defaultValue": "10.0.0.0/24",
+      "defaultValue": "10.0.0.0/16",
       "metadata": {
         "description": "Subnet Prefix"
       }
@@ -147,7 +147,7 @@
     },
     "vmSize": {
       "type": "string",
-      "defaultValue": "Standard_DS14",
+      "defaultValue": "Standard_D3",
       "metadata": {
         "description": "The size of the VMs deployed in the cluster (Defaults to Standard_D14)"
       }
