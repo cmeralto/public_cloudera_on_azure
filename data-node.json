@@ -24,6 +24,10 @@
       "type": "object"
     },
     "clusterSpec": {
+
+
+
+      
       "type": "object"
     }
   },
